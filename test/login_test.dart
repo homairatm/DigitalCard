@@ -7,7 +7,7 @@ import 'package:rxdart/rxdart.dart';
 class MockFirebaseAuth extends Mock implements FirebaseAuth{}
 class MockFirebaseUser extends Mock implements FirebaseUser{}
 class MockAuthResult extends Mock implements AuthResult {}
-
+//Mock
 void main() {
   MockFirebaseAuth _auth = MockFirebaseAuth();
   BehaviorSubject<MockFirebaseUser> _user = BehaviorSubject<MockFirebaseUser>();
